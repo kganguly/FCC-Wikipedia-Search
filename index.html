@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC: Wikipedia Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://use.fontawesome.com/42b46179c6.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <header>
+    <h1 class="text-center"><i class="fa fa-wikipedia-w"></i>ikipedia Search <small></small></h1>
+  </header>
+  
+  <main>
+    <div class="search text-center" id="searchBox"> 
+      <a class="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">random topic</a>
+      <div class="input-group input-group-lg">
+        <input type="text" class="form-control" placeholder="Search" id="searchText"><span class="input-group-btn"><button class="btn btn-default" type="button" id="searchButton"><i class="fa fa-search"></i></button></span>
+      </div>
+    </div>
+    
+    <div class="results" id="resultsBox">
+    </div>
+  </main>
+  
+  <footer class="text-center">
+        <hr>
+        <p>Created by <a href="https://www.kganguly.com" target="_blank">Kaushik Ganguly</a>.</p>
+  </footer>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

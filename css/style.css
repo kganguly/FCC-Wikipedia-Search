@@ -1,0 +1,101 @@
+header h1 { 
+  font-size: 63px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  line-height: 1.1;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.6;
+  transition: opacity 1s;
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+footer a {
+  transition: color 0.5s;
+}
+
+.list-group-item {
+  z-index: 1;
+  transition: border 0.2s ease-in-out, color 1s, background-color 1s;
+}
+
+.list-group-item:hover {
+  border-left: thick solid orange;
+  color: grey;
+}
+
+.list-group-item:hover h3 {
+   font-weight: bold;
+}
+
+.list-group-item-text {
+  font-size: large;
+}
+
+#toTopDiv {
+  /*width: 100%;*/
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+.fa-chevron-up {
+  position: relative;
+  margin-top: -0.4em;
+  z-index: 1;
+  color: #337ab7;
+  transition: color 0.5s ease-out;
+}
+
+.fa-chevron-up:hover {
+  color: #4da3ec;
+}
+
+#more {
+  /*border: #D96F32; /*orange;*/
+  background-color: #f5f5f5;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.3);
+  transition: box-shadow 1s ease-out, opacity 0.5s ease-out;
+}
+
+#more:hover {
+  border-color: #ccc;
+  border-left-width: thin;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 20px rgba(102,175,233,.6);
+}
+
+#more:active {
+  opacity: 0.7;
+  transition: box-shadow 0.5s ease-out;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.3);
+}
+
+a:visited, a:hover, a:focus {
+  text-decoration: none;
+}
+
+#searchButton {
+  transition: background-color 1s;
+}
+#searchButton:focus {
+   outline: none;
+    background: white;
+}
+
